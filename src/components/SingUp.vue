@@ -3,7 +3,7 @@
     <!-- <p>Count: {{ count }}</p>
     <button @click="incrementCount">Increment</button> -->
 
-    <input :value="text" @input="formFill" placeholder="type here"/>
+    <input :value="text" @input="formFill" placeholder="type here" />
     <h1>{{ text }}</h1>
   </div>
 </template>
@@ -13,10 +13,11 @@ import { ref } from "vue";
 export default {
   setup() {
     // const count = ref(0);
-    const text = ref('');
+    const text = ref("");
     const formFill = (event) => {
       text.value = event.target.value;
     };
+    const added = 10;
 
     // const incrementCount = () => {
     //   count.value++;
@@ -27,7 +28,7 @@ export default {
       text,
       formFill,
       // incrementCount,
-    }
+    };
   },
 };
 </script>
