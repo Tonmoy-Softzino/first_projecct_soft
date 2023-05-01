@@ -18,6 +18,7 @@ export default {
       text.value = event.target.value;
     };
     const added = 10;
+    const new_var = 100;
 
     // const incrementCount = () => {
     //   count.value++;
