@@ -4,7 +4,7 @@ import SingUp from './components/SingUp.vue';
 </script>
 
 <template>
-  <div>
+  <div class="main-container">
     <SingUp/>
     
   </div>
@@ -12,7 +12,12 @@ import SingUp from './components/SingUp.vue';
 </template>
 
 <style scoped>
-.logo.vue:hover {
-  filter: drop-shadow(0 0 2em #42b883aa);
-}
+  /* *{
+    box-sizing: border-box;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+  /* .main-container{
+    margin: 0 !important;
+  } */ 
 </style>
